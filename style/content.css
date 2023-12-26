@@ -835,28 +835,28 @@ html{
 }
 
 .fifthscreen{
-    position: relative;
+}
+
+.kirpichi {
+    z-index: 2;
     display: flex;
     flex-direction: row;
-    flex: 1 1 50%;
+    justify-content: space-between;
     width: 100vw;
-    column-gap: 30vw;
-    justify-content: center;
-    margin-top: -60vw;
-}
+    overflow-x: hidden; 
+    }
 
-.firstkirpichi{
-    display: flex;
-    flex-direction: column;
-    animation: kirpich 1s infinite;
-}
+.firstkirpichi {
+    width: 51.1112vw;
+    height: 55.2777vw;
+    background: no-repeat center/100% url('./images/kirpichisvg.svg');
+    }
 
-.secondkirpichi{
-    display: flex;
-    flex-direction: column;
-    animation: kirpich1 1s infinite;
-    overflow-x: hidden;
-}
+.secondkirpichi {
+    width: 51.1112vw;
+    height: 55.2777vw;
+    background: no-repeat center/100% url('./images/kirpichisvg.svg');
+    }
 
 @keyframes kirpich {
     0% { transform: translatey(-1vw);}
@@ -879,6 +879,7 @@ html{
 }
 
 .lestnitsy{
+    z-index: 1;
     width: 100vw;
     position: relative;
     z-index: -2;
