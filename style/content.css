@@ -39,6 +39,7 @@ body{
     position: absolute;
     animation: glavtxt 1s infinite;
     left: 22vw;
+    z-index: 2;
 }
 
 @keyframes maintxt {
