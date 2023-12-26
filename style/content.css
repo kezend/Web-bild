@@ -2,6 +2,10 @@ html{
     background: #121212;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .firstscreen{
     margin-top: 3vw;
     overflow-x: hidden;
@@ -849,13 +853,15 @@ html{
 .firstkirpichi {
     width: 51.1112vw;
     height: 55.2777vw;
-    background: no-repeat center/100% url('./images/kirpichisvg.svg');
+    background: no-repeat center 100% url('./images/kirpichisvg.svg');
+    display: block;
     }
 
 .secondkirpichi {
     width: 51.1112vw;
     height: 55.2777vw;
-    background: no-repeat center/100% url('./images/kirpichisvg.svg');
+    background: no-repeat center 100% url('./images/kirpichisvg.svg');
+    display: block;
     }
 
 @keyframes kirpich {
