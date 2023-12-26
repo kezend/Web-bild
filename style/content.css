@@ -852,17 +852,21 @@ body{
     }
 
 .firstkirpichi {
-    width: 51.1112vw;
-    height: 55.2777vw;
-    background: no-repeat center 100% url('images/kirpichisvg.svg');
+    margin-top: -20vw;
+    width: 31.1112vw;
+    height: 66.2777vw;
+    background: no-repeat center 100% url('../images/kirpichisvg.svg');
     display: block;
+    animation: kirpich 2s infinite;
     }
 
 .secondkirpichi {
-    width: 51.1112vw;
-    height: 55.2777vw;
-    background: no-repeat center 100% url('images/kirpichisvg.svg');
+    margin-top: -20vw;
+    width: 31.1112vw;
+    height: 66.2777vw;
+    background: no-repeat center 100% url('../images/kirpichisvg.svg');
     display: block;
+    animation: kirpich1 2s infinite;
     }
 
 @keyframes kirpich {
