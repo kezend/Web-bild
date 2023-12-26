@@ -8,6 +8,7 @@ html{
     overflow-y: hidden;
     position: relative;
     margin-bottom: 2vw;
+    height: 45.3472vw;
 }
 
 .first_block{
@@ -597,6 +598,7 @@ html{
 }
 
 .secondscreen{
+    height: 26.8071vw;
     position: relative;
     height: 28vw;
     display: flex;
@@ -749,6 +751,7 @@ html{
 }
 
 .thirdscreen{
+    height: 22.1528vw;
     color: #7B7B7B;
     text-align: left;
     font-family: Platform LC;
@@ -839,11 +842,11 @@ html{
     width: 100vw;
     column-gap: 50vw;
     justify-content: center;
-    margin-top: -10vw;
+    margin-top: -60vw;
 }
 
 .firstkirpichi{
-    margin-left: -20vw;
+    
     display: flex;
     flex-direction: column;
     width: auto;
@@ -883,7 +886,7 @@ html{
     position: relative;
     z-index: -2;
     display: flex;
-    margin-bottom: -10vw;
+    margin-bottom: -40vw;
 }
 
 @keyframes lest1 {
@@ -970,7 +973,7 @@ html{
 }
 
 .last{
-    height: 29.5833vw;
+    height: 29.1667vw;
     overflow: hidden;
 }
 
