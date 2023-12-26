@@ -839,7 +839,7 @@ html{
     width: 100vw;
     column-gap: 50vw;
     justify-content: center;
-    margin-top: -60vw;
+    margin-top: -10vw;
 }
 
 .firstkirpichi{
@@ -883,7 +883,7 @@ html{
     position: relative;
     z-index: -2;
     display: flex;
-    margin-bottom: -40vw;
+    margin-bottom: -10vw;
 }
 
 @keyframes lest1 {
