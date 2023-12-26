@@ -1,0 +1,8 @@
+@import 'reset.css';
+@import 'content.css';
+@import 'responsive.css';
+
+@font-face {
+    font-family: "Platform LC";
+    src: url("../font/PlatformLC-Regular.otf")
+}
