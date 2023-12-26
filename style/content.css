@@ -837,12 +837,13 @@ html{
     flex-direction: row;
     flex: 1 1 50%;
     width: 100vw;
-    column-gap: 40vw;
+    column-gap: 50vw;
     justify-content: center;
-    margin-top: -40vw;
+    margin-top: -60vw;
 }
 
 .firstkirpichi{
+    margin-left: -20vw;
     display: flex;
     flex-direction: column;
     width: auto;
@@ -874,7 +875,7 @@ html{
 }
 
 .kir1_1, .kir1_2, .kir1_3, .kir1_4, .kir2_1, .kir2_2, .kir2_3, .kir2_4{
-    width: 100%;
+    width: 150%;
 }
 
 .lestnitsy{
