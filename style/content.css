@@ -840,23 +840,20 @@ html{
     flex-direction: row;
     flex: 1 1 50%;
     width: 100vw;
-    column-gap: 50vw;
+    column-gap: 30vw;
     justify-content: center;
     margin-top: -60vw;
 }
 
 .firstkirpichi{
-    
     display: flex;
     flex-direction: column;
-    width: auto;
     animation: kirpich 1s infinite;
 }
 
 .secondkirpichi{
     display: flex;
     flex-direction: column;
-    width: auto;
     animation: kirpich1 1s infinite;
     overflow-x: hidden;
 }
@@ -878,7 +875,7 @@ html{
 }
 
 .kir1_1, .kir1_2, .kir1_3, .kir1_4, .kir2_1, .kir2_2, .kir2_3, .kir2_4{
-    width: 150%;
+    width: 30%;
 }
 
 .lestnitsy{
